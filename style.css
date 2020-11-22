@@ -1,0 +1,61 @@
+.services {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 5%;
+}
+.services .head{
+    padding: 60px;
+}
+
+
+.artibox p {
+    margin-top: 50px;
+
+}
+
+.artibox {
+    box-shadow: 0px 0px 4px 3px #e3e3e3;
+    position: relative;
+}
+
+.artibox img {
+    width: 100%;
+}
+
+.services .article .artibox .heading {
+    width: 90%;
+    background: #f97230;
+    color: #fff;
+    position: absolute;
+    bottom: 155px;
+    left: 20px;
+    margin-bottom: 70px;
+}
+
+.services .article .artibox .heading h4 {
+    margin-top: 5px;
+
+}
+
+.services .article .artibox .text {
+    padding: 20px;
+}
+
+.article .artibox button {
+    bottom: 25px;
+    left: 35px;
+    border-radius: 20px;
+}
+
+.article .artibox button::after {
+    content: "\f061";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #000;
+}
+
+.article .artibox button:hover::after {
+    color: #f97230;
+
+}
